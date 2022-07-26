@@ -1,9 +1,9 @@
-package HomeWork.Lesson_10_p1.p4;
+package HomeWork.Lesson_10A_p1.p4;
 
-import HomeWork.Lesson_10_p1.A1;
-import HomeWork.Lesson_10_p1.p2.p3.C1;
-import HomeWork.Lesson_10_p1.p4.p5.E1;
-import static HomeWork.Lesson_10_p1.p2.B1.*;
+import HomeWork.Lesson_10A_p1.A1;
+import HomeWork.Lesson_10A_p1.p2.p3.C1;
+import HomeWork.Lesson_10A_p1.p4.p5.E1;
+import static HomeWork.Lesson_10A_p1.p2.B1.*;
 
 public class D1 {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Lesson_5_Methods;
+package ClassWork.Lesson_5_Methods;
 
 public class Method_Call {
     int calculator(int a, int b, int c) {

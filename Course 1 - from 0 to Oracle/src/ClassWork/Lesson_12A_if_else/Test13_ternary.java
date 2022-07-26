@@ -1,4 +1,4 @@
-package ClassWork.Lesson_12_if_else;
+package ClassWork.Lesson_12A_if_else;
 
 public class Test13_ternary {
 

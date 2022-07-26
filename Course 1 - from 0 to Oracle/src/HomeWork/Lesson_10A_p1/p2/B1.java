@@ -1,4 +1,4 @@
-package HomeWork.Lesson_10_p1.p2;
+package HomeWork.Lesson_10A_p1.p2;
 
 public class B1 {
     public static String name = "Petya";

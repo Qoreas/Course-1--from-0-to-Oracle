@@ -1,4 +1,4 @@
-package ClassWork.Lesson_10_import;
+package ClassWork.Lesson_10A_import;
 import static ClassWork.Lesson_9_Scope_Variables.Car4.count;
 
 public class C_Static {

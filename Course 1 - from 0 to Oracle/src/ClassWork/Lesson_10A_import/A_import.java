@@ -1,9 +1,8 @@
-package ClassWork.Lesson_10_import;
+package ClassWork.Lesson_10A_import;
 
 
 import ClassWork.Lesson_9_Scope_Variables.Car4;
 import ClassWork.Lesson_9_Scope_Variables.Student4;
-import ClassWork.Lesson_8_Static_Final.*;
 
 // or import ClassWork.Lesson_9_Scope_Variables.*; all classes
 

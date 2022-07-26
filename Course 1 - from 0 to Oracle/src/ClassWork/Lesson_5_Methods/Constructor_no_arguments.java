@@ -1,6 +1,4 @@
-package Lesson_5_Methods;
-
-import javax.sound.sampled.AudioInputStream;
+package ClassWork.Lesson_5_Methods;
 
 public class Constructor_no_arguments {
     Constructor_no_arguments(String color1, String engine1) {

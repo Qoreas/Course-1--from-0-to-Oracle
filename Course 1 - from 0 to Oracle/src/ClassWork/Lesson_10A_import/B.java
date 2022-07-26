@@ -1,4 +1,4 @@
-package ClassWork.Lesson_10_import;
+package ClassWork.Lesson_10A_import;
 import ClassWork.Lesson_9_Scope_Variables.*;
 
 public class B {

@@ -1,4 +1,4 @@
-package ClassWork.Lesson_11_referance_types;
+package ClassWork.Lesson_11A_referance_types;
 
 public class Employee6 {
     public String name; public double salary;

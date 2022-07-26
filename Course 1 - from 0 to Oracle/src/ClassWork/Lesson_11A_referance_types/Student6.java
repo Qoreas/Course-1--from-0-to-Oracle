@@ -1,4 +1,4 @@
-package ClassWork.Lesson_11_referance_types;
+package ClassWork.Lesson_11A_referance_types;
 
 public class Student6 {
      String name; int course; double grade;

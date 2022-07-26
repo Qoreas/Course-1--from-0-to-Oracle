@@ -1,4 +1,4 @@
-package Lesson_6_Overloading_Methods;
+package ClassWork.Lesson_6_Overloading_Methods;
 
 public class Method_Overload_return_type {
     // разный return type
