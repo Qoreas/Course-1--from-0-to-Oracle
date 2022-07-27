@@ -18,6 +18,7 @@ class Student6_test {
         }
     }
 
+
     static void compareAttributes(Student5 st1, Student5 st2) {
         if (st1.name == st2.name) {
             System.out.println("Names compare");
