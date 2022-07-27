@@ -1,4 +1,4 @@
-package ClassWork.Lesson_12A_if_else;
+package ClassWork.Lessons_10_per_19.Lesson_12A_if_else;
 
 public class Test12 {
     public static void main(String[] args) {
