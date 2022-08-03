@@ -1,4 +1,4 @@
-package ClassWork.Lessons_10_per_19.L_16_String;
+package ClassWork.Lessons_10_per_19.L_16_String_methods;
 
 public class string_methods_2 {
     public static void main(String[] args) {
@@ -10,7 +10,7 @@ public class string_methods_2 {
         System.out.println(s2);
         System.out.println(s1);
 
-        
+
         System.out.println();
         System.out.println("Присваивание значения начиная с и до");
 

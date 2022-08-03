@@ -1,4 +1,4 @@
-package ClassWork.Lessons_10_per_19.L_16_String;
+package ClassWork.Lessons_10_per_19.L_16_String_methods;
 
 public class string_methods_1 {
 
@@ -6,7 +6,7 @@ public class string_methods_1 {
         String s1 = new String("abcdefgabcd");
 
         System.out.println("Длина");
-        
+
         int count = s1.length(); // длина
         System.out.println(count);
         System.out.println();

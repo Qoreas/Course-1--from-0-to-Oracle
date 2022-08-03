@@ -1,4 +1,4 @@
-package ClassWork.Lessons_10_per_19.L_16_String;
+package ClassWork.Lessons_10_per_19.L_16_String_methods;
 
 public class test1 {
 

@@ -1,4 +1,4 @@
-package ClassWork.Lessons_10_per_19.L_16_String;
+package ClassWork.Lessons_10_per_19.L_16_String_methods;
 
 public class Car7 {
     final static int a = 5;
@@ -19,7 +19,7 @@ public class Car7 {
         Car7 c = new Car7("red", "V6");
         Car7 c2 = c.abc("Black");
         System.out.println(c.color);
-        
+
     }
 }
 
