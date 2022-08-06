@@ -1,6 +1,6 @@
 package ClassWork.Lessons_10_per_19.L_16_String_methods;
 
-public class methods {
+public class methods_string {
     public static void main(String[] args) {
 
         String s1 = new String("Hello");
