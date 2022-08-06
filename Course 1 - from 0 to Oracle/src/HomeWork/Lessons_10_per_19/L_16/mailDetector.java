@@ -8,11 +8,15 @@ public class mailDetector {
         char point = '.';
 
         for (int i = 0; i < mail.length(); i++) {
+
             if (mail.charAt(i) == dog) {
+                i++;
+
                 while (mail.charAt(i) != point) {
                     System.out.print(mail.charAt(i));
                     i++;
                 }
+
                 System.out.println();
             }
         }
