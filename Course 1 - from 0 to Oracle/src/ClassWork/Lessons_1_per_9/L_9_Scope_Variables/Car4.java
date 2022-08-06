@@ -6,7 +6,7 @@ public class Car4 {
     int U;
     int $d;
     int _cc;
-    final int XYZ = 3; // константа большие буквы
+    final int XYZ = 3; // constant big letters
 
     String color;
     int a = 10;

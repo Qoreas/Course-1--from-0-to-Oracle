@@ -1,17 +1,20 @@
 package ClassWork.Lessons_1_per_9.L_8_Static_Final;
 
 public class Student10_static {
-    String name; int course; static int count; int a;
+    String name;
+    int course;
+    static int count;
+    int a;
 
     public Student10_static(String nameSet, int courseSet) {
         count++;
         name = nameSet;
         course = courseSet;
-        System.out.println("Студент номер " + count + " создан");
+        System.out.println("Student number " + count + " created");
     }
 
     public static void showCount() {
-        System.out.println("Всего создано - " + count + " студентов");
+        System.out.println("Total created - " + count + " students");
     }
 
     public void showInfo() {

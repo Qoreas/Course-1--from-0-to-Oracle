@@ -14,7 +14,7 @@ class employee8 {
 
     public static void main(String[] args) {
         employee8 emp = new employee8(100, false);
-        System.out.println("Он менеджер? " + emp.isManager + ". Его зп: " + emp.salary);
+        System.out.println("Is he manager? " + emp.isManager + ". His salary: " + emp.salary);
     }
 }
 

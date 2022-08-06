@@ -10,14 +10,17 @@ public class Employee12 {
             case 3:
             case 4:
             case 5:
-                System.out.println("Работа до 18.00"); break;
+                System.out.println("Work until 18.00");
+                break;
 
             case 6:
-                System.out.println("Работа до 14.00"); break;
+                System.out.println("Work until 14.00");
+                break;
             case 7:
-                System.out.println("Работы нет"); break;
+                System.out.println("No work");
+                break;
             default:
-                System.out.println("Такого дня не существует");
+                System.out.println("There is no such day");
 
 
         }

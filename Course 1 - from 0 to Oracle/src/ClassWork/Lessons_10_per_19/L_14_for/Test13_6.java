@@ -2,9 +2,9 @@ package ClassWork.Lessons_10_per_19.L_14_for;
 
 public class Test13_6 {
     public static void time() {
-            OUTER:
-            for (int hour = 0; hour <= 23; hour++) {
-                System.out.println("Начало цикла");
+        OUTER:
+        for (int hour = 0; hour <= 23; hour++) {
+            System.out.println("Circle starts");
 
             INNER:
             for (int minutes = 0; minutes <= 59; minutes++) {

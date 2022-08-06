@@ -6,6 +6,7 @@ public class Test12 {
 
 class Student12 {
     int grade;
+
     Student12(int grade) {
         this.grade = grade;
     }
@@ -15,16 +16,21 @@ class Student12 {
 
         switch (st.grade) {
             default:
-                System.out.println("Оценка неверна");   break;
+                System.out.println("Rating is wrong");
+                break;
 
             case 2:
-                System.out.println("Студент двоечник"); break;
+                System.out.println("Loser student");
+                break;
             case 3:
-                System.out.println("Студент троечник"); break;
+                System.out.println("C student");
+                break;
             case 4:
-                System.out.println("Студент хорошист"); break;
+                System.out.println("B student");
+                break;
             case 5:
-                System.out.println("Студент отличник"); break;
+                System.out.println("A student");
+                break;
         }
     }
 }

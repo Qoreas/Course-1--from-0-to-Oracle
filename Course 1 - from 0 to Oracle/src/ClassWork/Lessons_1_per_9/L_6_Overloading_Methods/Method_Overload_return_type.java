@@ -1,8 +1,8 @@
 package ClassWork.Lessons_1_per_9.L_6_Overloading_Methods;
 
 public class Method_Overload_return_type {
-    // разный return type
-    // access modifier разный
+    // different return type
+    // access modifier different
     public int cal(int one, int two) {
         return one + two;
     }

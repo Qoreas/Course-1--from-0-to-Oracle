@@ -17,13 +17,14 @@ public class Method_OverLoad {
     void show(String s) {
         System.out.println(s + " - string");
     }
+
     // разные по пор€дку
     void show(String s, int a) {
         System.out.println("String: " + s + ", " + "number: " + a);
     }
 
     void show(int a, String s) {
-        System.out.println("другой пор€док");
+        System.out.println("Different order");
     }
 }
 
@@ -38,7 +39,7 @@ class Method_OverLoad_test {
         boolean b = true;
         test.show(b);
 
-        String s1 = "ѕривет";
+        String s1 = "Hello";
         test.show(s1);
 
         test.show("ho", 2);

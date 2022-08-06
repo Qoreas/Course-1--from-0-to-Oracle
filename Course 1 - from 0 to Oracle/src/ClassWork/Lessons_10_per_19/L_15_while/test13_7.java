@@ -5,8 +5,8 @@ public class test13_7 {
         int a = 0;
 
         do {
-            System.out.println("Сделайте ставку");
-            System.out.println("Вы проиграли");
+            System.out.println("Bet");
+            System.out.println("You lose");
             a -= 10;
         } while (a > 50);
     }

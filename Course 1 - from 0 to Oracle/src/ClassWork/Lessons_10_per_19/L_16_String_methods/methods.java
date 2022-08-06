@@ -6,102 +6,102 @@ public class methods {
         String s1 = new String("Hello");
         String s2 = new String("abcdefabc");
 
-        // length - длина - возвращает int
+        // length - returns int
         int result1 = s1.length();
-        System.out.println(result1 + " - кака€ длина");
+        System.out.println(result1 + " - what length");
 
 
-        // charAt - какой элемент на индексе - возвращает char
+        // charAt - what element at index - returns char
         char result2 = s1.charAt(0);
-        System.out.println(result2 + " - какой элемент на индексе");
+        System.out.println(result2 + " - what element at index");
 
 
-        // indexOf - на каком индексе находитс€ элемент - возвращает int
+        // indexOf - at what index the element is - returns
         int result3 = s1.indexOf("el");
-        System.out.println(result3 + " - где элемент 'el'");
+        System.out.println(result3 + " - where is element 'el'");
 
         int result4 = s1.indexOf("lo");
-        System.out.println(result4 + " - где элемент 'lo'");
+        System.out.println(result4 + " - where is element 'lo'");
 
         int result5 = s1.indexOf('l');
-        System.out.println(result5 + " - где char 'l'");
+        System.out.println(result5 + " - where is char 'l'");
 
-        // поиск начина€ с какого индекса
+        // search starting from which index
         int result6 = s2.indexOf('a', 5);
-        System.out.println(result6 + " - где искать элемент, с какого индекса");
+        System.out.println(result6 + " - where to look for the element, from what index");
 
 
-        // startsWith - начинаетс€ ли с ... - возвращает boolean
+        // startsWith - does it start with ... - returns boolean
         boolean result7 = s2.startsWith("abc");
-        System.out.println(result7 + " - начинаетс€ ли");
+        System.out.println(result7 + " - does it start");
 
 
-        // endsWith - заканчиваетс€ на ... - возвращаетс€ boolean
+        // endsWith - ends with ... - returns boolean
         boolean result8 = s2.endsWith("abc");
-        System.out.println(result8 + " - заканчиваетс€ ли на 'abc'");
+        System.out.println(result8 + " - does it end with 'abc'");
 
 
-        // subString - записывает строку, начина€ и/или заканчива€ с ... - возвращает String
+        // subString - writes a string starting and/or ending with ... - returns String
         String result9 = s2.substring(3);
-        System.out.println(result9 + " - присвой значение s2, начина€ с 3 индекса");
+        System.out.println(result9 + " - assign value to s2 starting at index 3");
 
         String result10 = s2.substring(3, 7);
-        System.out.println(result10 + " - присвой значение, начина€ с 3 индекса и заканчива€ 7м");
+        System.out.println(result10 + " - assign a value starting at index 3 and ending at index 7");
 
 
-        // trim - strip - убирает пробелы по бокам - возвращает String
+        // trim - strip - removes spaces on the sides - returns String
         String s3 = "   a  a  aa    ";
         String result11 = s3.trim();
-        System.out.println(result11 + " - убери пробелы по бокам, но не внутри");
+        System.out.println(result11 + " - remove the spaces on the sides, but not inside");
 
 
-        // replace - замени что то, на что то - возвращает String
+        // replace - replace something with something - returns String
         String result12 = s1.replace("Hel", "peeer");
-        System.out.println(result12 + " - помен€й это на то");
+        System.out.println(result12 + " - change it to that");
 
 
-        // concat - склей что то, с чем то - возвращает String
+        // concat - glue something with something - returns String
         String result13 = s1.concat(s2);
-        System.out.println(result13 + " - склей это с тем");
+        System.out.println(result13 + " - glue it with that");
 
 
-        // toLowerCase - перевод символов в нижний регистр - возвращает String
+        // toLowerCase - converting characters to lowercase - returns String
         String s4 = new String("WEDWDWRW");
         String result14 = s4.toLowerCase();
-        System.out.println(result14 + " - переведи в нижний регистр");
+        System.out.println(result14 + " - convert to lowercase");
 
-        // toUpperCase - перевод символов в верхний регистр - возвращает String
+        // toUpperCase - converting characters to upper case - returns String
         String s5 = new String("fiieuef");
         String result15 = s5.toUpperCase();
-        System.out.println(result15 + " - переведи в верхний регистр");
+        System.out.println(result15 + " - convert to upper case");
 
 
-        // contains - содержит ли ... - возвращает boolean
+        // contains - does it contain ... - returns boolean
         boolean r1 = s1.contains("Hel");
-        System.out.println(r1 + " - содержит ли символы 'Hel'");
+        System.out.println(r1 + " - whether it contains 'Hel' characters");
 
 
-        // isBlank - состоит ли из пробелов и табов - возвращает boolean
+        // isBlank - whether it consists of spaces and tabs - returns boolean
         String r2 = "hi";
         String r3 = "    ";
-        System.out.println(r2.isBlank() + " - есть ли только пробелы - " + r3.isBlank());
+        System.out.println(r2.isBlank() + " - is there only spaces - " + r3.isBlank());
 
 
-        // isEmpty - пуст ли - возвращает boolean
+        // isEmpty - is it empty - returns boolean
         boolean r4 = r2.isEmpty();
         String r5 = "";
-        System.out.println(r4 + " - пустой ли - " + r5.isEmpty());
+        System.out.println(r4 + " - is empty - " + r5.isEmpty());
 
 
-        // strip - удал€ет пробелы по бокам - возвращает String
+        // strip - removes spaces on the sides - returns String
         String r6 = " dddd  ";
-        System.out.println(r6.strip() + " - удали пробелы с обеих сторон");
+        System.out.println(r6.strip() + " - remove spaces on both sides");
 
-        // stripLeading - удал€ет пробелы в начале - возвращает String
-        System.out.println(r6.stripLeading() + " - удали пробелы в начале");
+        // stripLeading - removes spaces at the beginning - returns String
+        System.out.println(r6.stripLeading() + " - remove the spaces at the beginning");
 
-        // stripTrailing - удал€ет пробелы в конце - возвращает String
-        System.out.println(r6.stripTrailing() + " - удали пробелы в конце");
+        // stripTrailing - removes spaces at the end - returns String
+        System.out.println(r6.stripTrailing() + " - remove the spaces at the end");
     }
 }
 
@@ -110,10 +110,10 @@ class method_chaining {
         String s1 = "Hello World";
         String s2 = "uraaaaaaaaa";
 
-        // новый объект Hello Worlduraaaa - убирает пробелы - замена uraa на ураа -- Hello worldурааа - c w до l -- worl
+        // new object Hello Worlduraaaa - remove spaces - replace uraa with cheers -- Hello worldурааа - from w to l -- worl
         String s3 = s1.concat(s2).trim().replace("uraaaaaaaaa", "ураааааа").substring(6, 10);
 
-        // Hello World - от W до конца -- World
+        // Hello World - from W until end -- World
         System.out.println(s1.substring(s1.indexOf('W')));
     }
 }

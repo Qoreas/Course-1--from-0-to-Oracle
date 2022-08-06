@@ -7,7 +7,7 @@ public class Test13_3 {
         }
         int j = 10;
         if (false) {
-            System.out.println("Меньше трех");
+            System.out.println("Less then 3");
         }
     }
 }

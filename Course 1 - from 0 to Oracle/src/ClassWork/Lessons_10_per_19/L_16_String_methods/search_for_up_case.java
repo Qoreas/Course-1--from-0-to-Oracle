@@ -2,8 +2,8 @@ package ClassWork.Lessons_10_per_19.L_16_String_methods;
 
 public class search_for_up_case {
     public static void main(String[] args) {
-        String text = "Чтобы мудро жизнь прожить, знать надобно немало. Два важных правила запомни для начала ты:" +
-                " Лучше голодай, чем что попало есть. И лучше будь одни, чем вместе с кем попало";
+        String text = "To live life wisely, you need to know a lot. Two important rules to remember to start you: " +
+                "It's better to starve than to eat anything. And it's better to be alone than with just anyone.";
 
         String up = text.toUpperCase();
 
