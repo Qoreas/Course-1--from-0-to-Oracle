@@ -1,12 +1,14 @@
-package HomeWork.Lesson_7;
+package HomeWork.Lessons_1_per_9.L_7;
 
 public class Employee3 {
     public Employee3(String surname3, int age3) {
         this(0, surname3, age3, 0.0, 0);
     }
+
     Employee3(int id2, String surname2, int age2) {
         this(id2, surname2, age2, 0.0, 0);
     }
+
     private Employee3(int idSet, String surnameSet, int ageSet, double salarySet, int deportmentSet) {
         id = idSet;
         surname = surnameSet;
@@ -14,7 +16,13 @@ public class Employee3 {
         salary = salarySet;
         deportment = deportmentSet;
     }
-    int id; public String surname; int age; private double salary; int deportment;
+
+    int id;
+    public String surname;
+    int age;
+    private double salary;
+    int deportment;
+
     public void show(String choose) {
         if (choose.equals("salary")) {
             System.out.println(salary);

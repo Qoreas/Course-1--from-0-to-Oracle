@@ -4,7 +4,8 @@ public class Months_V2 {
     static void showMonthDays(int number) { // year 2015
         switch (number) {
             default:
-                System.out.println("¬веден неверный пор€дковый номер мес€ца"); break;
+                System.out.println("Invalid month number entered");
+                break;
             case 1:
             case 3:
             case 5:
@@ -12,18 +13,22 @@ public class Months_V2 {
             case 8:
             case 10:
             case 12:
-                System.out.println("ћес€ц имеет 31 день"); break;
+                System.out.println("A month has 31 days");
+                break;
 
             case 4:
             case 6:
             case 9:
             case 11:
-                System.out.println("ћес€ц имеет 30 дней"); break;
+                System.out.println("A month has 30 days");
+                break;
 
             case 2:
-                System.out.println("‘евраль имеет 28 дней"); break;
+                System.out.println("February has 28 days");
+                break;
         }
     }
+
     public static void main(String[] args) {
         showMonthDays(12);
     }

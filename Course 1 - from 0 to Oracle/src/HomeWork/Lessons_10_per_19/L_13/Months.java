@@ -4,31 +4,44 @@ public class Months {
     static void showMonthDays(int number) { // year 2015
         switch (number) {
             default:
-                System.out.println("¬веден неверный пор€дковый номер мес€ца"); break;
+                System.out.println("Invalid month number entered");
+                break;
             case 1:
-                System.out.println("январь имеет 31 дней"); break;
+                System.out.println("January has 31 days");
+                break;
             case 2:
-                System.out.println("‘евраль имеет 28 дн€"); break;
+                System.out.println("February has 28 days");
+                break;
             case 3:
-                System.out.println("ћарт имеет 31 дней"); break;
+                System.out.println("March has 31 days");
+                break;
             case 4:
-                System.out.println("јпрель имеет 30 дней"); break;
+                System.out.println("April has 30 days");
+                break;
             case 5:
-                System.out.println("ћай имеет 31 день"); break;
+                System.out.println("May has 31 days");
+                break;
             case 6:
-                System.out.println("»юнь имеет 30 дней"); break;
+                System.out.println("June has 30 days");
+                break;
             case 7:
-                System.out.println("»юнь имеет 31 дней"); break;
+                System.out.println("June has 31 days");
+                break;
             case 8:
-                System.out.println("јвгуст имеет 30 дней"); break;
+                System.out.println("August has 30 days");
+                break;
             case 9:
-                System.out.println("—ент€брь имеет 30 дней"); break;
+                System.out.println("September has 30 days");
+                break;
             case 10:
-                System.out.println("ќкт€брь имеет 31 дней"); break;
+                System.out.println("October has 31 days");
+                break;
             case 11:
-                System.out.println("Ќо€брь имеет 30 дней"); break;
+                System.out.println("November has 30 days");
+                break;
             case 12:
-                System.out.println("ƒекабрь имеет 31 дней"); break;
+                System.out.println("December has 31 days");
+                break;
         }
     }
 

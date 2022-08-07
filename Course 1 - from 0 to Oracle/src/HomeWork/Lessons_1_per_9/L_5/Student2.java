@@ -1,6 +1,4 @@
-package HomeWork.Lesson_5;
-
-import HomeWork.Lesson_4.Student;
+package HomeWork.Lessons_1_per_9.L_5;
 
 public class Student2 {
     int ticket;
@@ -15,6 +13,7 @@ public class Student2 {
         double result = (median_economic + median_math + median_eng) / 3;
         System.out.println(result);
     }
+
     // or
     double calculateMedian2(Student2 st) {
         double result = (st.median_economic + st.median_math + st.median_eng) / 3;
@@ -26,7 +25,7 @@ public class Student2 {
 
 class Student2_test {
     public static void main(String[] args) {
-        // создание объекта и пути к нему
+        // creating an object and its reference
         Student2 first_st = new Student2();
         first_st.name = "Petrov";
         first_st.surname = "Elcin";

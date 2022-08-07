@@ -5,7 +5,7 @@ public class Fish_rebuild_while {
         int hour = 0;
         OUTER:
         while (hour < 6) {
-            System.out.println("Начало цикла");
+            System.out.println("Beginning of the main loop");
 
             int minutes = -1;
             MIDDLE:
@@ -13,7 +13,7 @@ public class Fish_rebuild_while {
                 minutes++;
 
                 if (hour > 1 && minutes % 10 == 0) {
-                    System.out.println("Конец метода");
+                    System.out.println("End method");
                     break OUTER;
                 }
 
@@ -22,7 +22,7 @@ public class Fish_rebuild_while {
                 while (seconds < 60) {
 
                     if (seconds * hour > minutes) {
-                        System.out.println("Следующая минута");
+                        System.out.println("next minute");
                         continue MIDDLE;
                     }
 

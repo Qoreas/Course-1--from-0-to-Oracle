@@ -1,7 +1,9 @@
-package HomeWork.Lesson_12A;
+package HomeWork.Lessons_10_per_19.L_12;
 
 public class Student5 {
-    public String name; public int age;
+    public String name;
+    public int age;
+
     Student5(String name, int age) {
         this.name = name;
         this.age = age;

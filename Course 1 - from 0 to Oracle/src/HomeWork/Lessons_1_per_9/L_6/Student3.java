@@ -1,8 +1,14 @@
-package HomeWork.Lesson_6;
+package HomeWork.Lessons_1_per_9.L_6;
 
 public class Student3 {
-    int ticket; String name; String surname; int year;
-    double median_math; double median_economic; double median_eng;
+    int ticket;
+    String name;
+    String surname;
+    int year;
+    double median_math;
+    double median_economic;
+    double median_eng;
+
     Student3(int ticketSet, String nameSet, String surnameSet, int yearSet, double math, double eng, double eco) {
         ticket = ticketSet;
         name = nameSet;
@@ -17,12 +23,14 @@ public class Student3 {
         this(ticket, name, surname, year, 0, 0, 0);
     }
 
-    Student3() {}
+    Student3() {
+    }
 
     void calculateMedian() {
         double result = (median_economic + median_math + median_eng) / 3;
         System.out.println(result);
     }
+
     // or
     double calculateMedian2(Student3 st) {
         double result = (st.median_economic + st.median_math + st.median_eng) / 3;

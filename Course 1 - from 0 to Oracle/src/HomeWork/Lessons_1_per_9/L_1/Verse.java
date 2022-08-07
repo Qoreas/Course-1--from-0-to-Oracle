@@ -1,10 +1,12 @@
-package HomeWork.Lesson_1;
+package HomeWork.Lessons_1_per_9.L_1;
 
 public class Verse {
     public static void main(String[] args) {
-        System.out.println("               РУБАИ");
-        System.out.println("Много лет размышлял я над жизнью земной.\nНепонятного нет для меня под луной.");
-        System.out.println("Мне известно, что мне ничего не известно!\nВот последняя правда открытая мной.");
-        System.out.print("                             О. Хайям");
+        System.out.println("               RUBAI");
+        System.out.println("For many years I pondered over earthly life.\n" +
+                "There is nothing incomprehensible for me under the moon.");
+        System.out.println("I know that I don't know anything!\n" +
+                "Here is the last truth I discovered.");
+        System.out.print("                             O. Khayyam");
     }
 }

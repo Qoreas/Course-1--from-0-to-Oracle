@@ -1,4 +1,4 @@
-package HomeWork.Lesson_5;
+package HomeWork.Lessons_1_per_9.L_5;
 
 public class Employee {
     Employee(int idSet, String surnameSet, int ageSet, double salarySet, int deportmentSet) {
@@ -8,6 +8,7 @@ public class Employee {
         salary = salarySet;
         deportment = deportmentSet;
     }
+
     int id;
     String surname;
     int age;

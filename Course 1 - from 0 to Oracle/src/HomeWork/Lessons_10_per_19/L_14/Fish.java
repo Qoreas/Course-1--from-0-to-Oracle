@@ -5,26 +5,26 @@ public class Fish {
         OUTER:
         for (int hour = 0; hour < 6; hour++) {
 
-            System.out.println("Начало главного цикла");
+            System.out.println("Beginning of the main loop");
 
             MIDDLE:
             for (int minutes = 0; minutes < 60; minutes++) {
                 if (hour > 1 && minutes % 10 == 0) {
-                    System.out.println("Конец метода");
+                    System.out.println("End method");
                     break OUTER;
                 }
 
                 INNER:
                 for (int seconds = 0; seconds < 60; seconds++) {
                     if (seconds * hour > minutes) {
-                        System.out.println("Следующая минута");
+                        System.out.println("next minute");
                         continue MIDDLE;
                     }
 
                     System.out.println(hour + ":" + minutes + ":" + seconds);
                 }
             }
-            System.out.println("Конец главного цикла");
+            System.out.println("End of main loop");
         }
     }
 

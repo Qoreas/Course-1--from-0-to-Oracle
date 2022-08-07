@@ -1,7 +1,8 @@
-package HomeWork.Lesson_9;
+package HomeWork.Lessons_1_per_9.L_9;
 
 public class Ex4 {
     String name;
+
     Ex4(String name) {
         this.name = name;
     }

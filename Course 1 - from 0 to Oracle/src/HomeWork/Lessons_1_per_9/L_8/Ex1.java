@@ -1,4 +1,4 @@
-package HomeWork.Lesson_8;
+package HomeWork.Lessons_1_per_9.L_8;
 
 public class Ex1 {
     static int multiplication(int a, int b, int c) {
@@ -8,7 +8,7 @@ public class Ex1 {
     static void division(double a, double b) {
         double result1 = a / b;
         double result2 = a % b;
-        System.out.println("Целое деление: " + result1 + ", остаток: " + result2);
+        System.out.println("Integer division: " + result1 + ", remainder: " + result2);
     }
 }
 

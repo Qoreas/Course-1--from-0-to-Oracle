@@ -1,4 +1,4 @@
-package HomeWork.Lesson_4;
+package HomeWork.Lessons_1_per_9.L_4;
 
 public class Student {
     int ticket;
@@ -13,12 +13,12 @@ public class Student {
         double result = (point1 + point2 + point2) / 3;
         return result;
     }
-    // Набор параметров
+    // Parameter set
 }
 
 class Student_test {
     public static void main(String[] args) {
-        // создание объекта и пути к нему
+        // creating an object and its reference
         Student first_st = new Student();
         first_st.name = "Petrov";
 
@@ -27,11 +27,11 @@ class Student_test {
 
         Student third_st = new Student();
         third_st.name = "Katya";
-        // тут для каждого параметра (он после точки) задаем значение
-        // т. е у первого студента по экономике 4, по англу 3 и тд
+        //here for each parameter (it is after the dot) we set the value
+        //i.e. the first student has 4 in economics, 3 in English, etc.
 
         System.out.println("Student " + first_st.name + " has an arithmetic mean: " + first_st.calculateMedian(3, 4, 5));
-        // тут будет вывод их оценок, а чтобы их получить, мы будем брать имя ученика и обращаться к параметру
-        // который содержит значение, введенное нами ранее. Вот такой код - большой пздц
+        // here will be the output of their grades, and to get them, we will take the name of the student and refer to the parameter
+        // which contains the value we entered earlier. Here is the code - big fuck
     }
 }

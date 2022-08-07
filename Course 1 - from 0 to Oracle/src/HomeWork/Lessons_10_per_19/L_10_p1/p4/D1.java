@@ -1,9 +1,10 @@
-package HomeWork.Lessons_10_per_19.Lesson_10A_p1.p4;
+package HomeWork.Lessons_10_per_19.L_10_p1.p4;
 
 import HomeWork.Lessons_10_per_19.L_10_p1.A1;
-import HomeWork.Lessons_10_per_19.Lesson_10A_p1.p2.p3.C1;
-import HomeWork.Lessons_10_per_19.Lesson_10A_p1.p4.p5.E1;
-import static HomeWork.Lessons_10_per_19.Lesson_10A_p1.p2.B1.*;
+import HomeWork.Lessons_10_per_19.L_10_p1.p2.p3.C1;
+import HomeWork.Lessons_10_per_19.L_10_p1.p4.p5.E1;
+
+import static HomeWork.Lessons_10_per_19.L_10_p1.p2.B1.name;
 
 public class D1 {
     public static void main(String[] args) {

@@ -1,6 +1,6 @@
-package HomeWork.Lesson_7.Test;
+package HomeWork.Lessons_1_per_9.L_7.Test;
 
-import HomeWork.Lesson_7.Employee3;
+import HomeWork.Lessons_1_per_9.L_7.Employee3;
 
 public class Employee_testing_access {
     public static void main(String[] args) {

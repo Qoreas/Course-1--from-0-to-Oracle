@@ -1,7 +1,7 @@
-package HomeWork.Lesson_8;
+package HomeWork.Lessons_1_per_9.L_8;
 
 public class Ex2 {
-    public static final  double pi = 3.12;
+    public static final double pi = 3.12;
 
     public double calS(double radius) {
         return pi * radius * radius;

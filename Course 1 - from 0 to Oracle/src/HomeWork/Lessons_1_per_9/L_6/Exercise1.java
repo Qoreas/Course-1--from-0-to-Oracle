@@ -1,4 +1,4 @@
-package HomeWork.Lesson_6;
+package HomeWork.Lessons_1_per_9.L_6;
 
 public class Exercise1 {
 

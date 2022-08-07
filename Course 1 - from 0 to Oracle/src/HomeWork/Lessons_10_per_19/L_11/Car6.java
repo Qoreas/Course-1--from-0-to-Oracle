@@ -1,7 +1,9 @@
-package HomeWork.Lesson_11A;
+package HomeWork.Lessons_10_per_19.L_11;
 
 public class Car6 {
-    public String color; public String engine; public int doors;
+    public String color;
+    public String engine;
+    public int doors;
 
 }
 
