@@ -67,5 +67,15 @@ public class methods_stringBuilder {
         System.out.println(sb1.capacity());
 
 
+        // Append wit array
+        char[] swe = {'h', 'i', 'g', 'a', 'm'};
+        StringBuilder swq = new StringBuilder("Hello, world");
+        swq.append(swe, 2, 3); // 2 start from, how many chars to add 3
+        System.out.println(swq);
+
+
+        // Insert with array
+        swq.insert(2, swe, 1, 3); // to 2 index, from 1, how many to add 3
+        System.out.println(swq);
     }
 }
