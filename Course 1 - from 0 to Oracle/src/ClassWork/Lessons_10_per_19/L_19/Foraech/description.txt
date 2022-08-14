@@ -1,0 +1,4 @@
+1. With foreach loop we cant change array's primitive datatype items
+2. We can change object value -- a.append("etc"); -- StringBuild
+3. We cant make dynamic initialization by foreach
+4. We cant work with two arrays in one loop

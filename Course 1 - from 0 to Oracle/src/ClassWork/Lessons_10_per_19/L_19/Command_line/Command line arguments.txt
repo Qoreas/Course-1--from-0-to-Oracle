@@ -1,0 +1,8 @@
+1. Open command stroke
+2. Find path to jdk -- C:\Program Files\Java\jdk-18.0.2\bin
+3. set, where is the program or her directory -- set path=C:\Program Files\Java\jdk-18.0.2\bin -- Enter
+4. Open path to program
+5. Compile program --    javac "program name"
+6. Run program -- java "program name"
+
+Command line arguments - arguments, which we can give to program before run -- java hello.class hi bye -- these argument going to array String[] args
