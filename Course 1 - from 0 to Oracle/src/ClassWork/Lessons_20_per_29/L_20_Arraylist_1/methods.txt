@@ -1,0 +1,40 @@
+1. list.add(value); -- boolean - adding item to last place -- add(new String("Privet"));
+   list.add(int index, value) -- adding item to index
+
+2. list.get(int index); -- item type - take item from index
+
+3. list.set(int index, value) -- like replace
+
+4. list.size(); -- int - length
+
+5. list.remove(Object); -- boolean - delete from list
+   list.remove(int index); -- Datatype
+
+6. list.addAll(ArrayList); -- boolean - add another list to end - one Datatype
+   list.addAll(int index, ArrayList); -- add another list to index
+
+7. list.clear(); -- void - clear list
+
+8. list.indexOf(Object); -- int - search element index by name from start
+9. list.lastIndexOf(Object); -- int search element index by name from the end
+
+10. list.isEmpty(); -- boolean - is list empty
+
+11. list.contains(Object); -- boolean (equals) - check list items
+
+12. list.toString(); -- Array - print list items
+
+13. list.clone(); -- Object - copy array - link to one objects
+
+14. list.toArray(Object); -- Array - reform List to Array -- Object[] array = list.toArray();
+    list.toArray(new Datatype); -- Datatype[] -- StringBuilder[] array = list.toArray(new StringBuilder[5]);
+                                                                                                ^
+15. Arrays.asList(Datatype[]); - list <Datatype> -- List <StringBuilder> list = Arrays.asList(array);
+
+16. Collections.sort(ArrayList <Datatype>); -- void - sort list like array
+
+17. list.equals(ArrayList <Datatype>); -- boolean
+
+
+
+

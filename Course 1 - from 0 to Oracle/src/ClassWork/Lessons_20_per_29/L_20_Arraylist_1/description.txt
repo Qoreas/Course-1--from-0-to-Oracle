@@ -1,0 +1,1 @@
+1. Use ArrayList then you don't know array length
