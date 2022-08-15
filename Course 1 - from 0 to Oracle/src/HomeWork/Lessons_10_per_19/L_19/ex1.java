@@ -1,31 +1,43 @@
 package HomeWork.Lessons_10_per_19.L_19;
 
 public class ex1 {
-    static void abc(String[] ... array) {
+    static String[] abc(String[]... array) {
 
-        String result = "";
+        int length = 0;
+        for (String[] i : array) {
+            length += i.length;
+        }
 
+        String[] result = new String[length];
+        int count = 0;
         for (String[] main : array) {
-            for (String s : main) {
-                result += s + ", ";
+            for (String item : main) {
+                result[count] = item;
+                count++;
             }
         }
-        System.out.println(result);
+
+        return result;
     }
 
     public static void main(String[] args) {
 
-        for (int i = 0; i < args.length; i++) {
-            args[i] = null;
-        }
-
         String[] ar1 = {"Hello", "hi"};
         String[] ar2 = {"Bye", "yee"};
 
-        abc(ar1, ar2);
+        String[] result = abc(ar1, ar2);
 
-        for (String i : args) {
-            System.out.println(i);
+        for (String a : args) {
+            for (int i = 0; i < result.length; i++) {
+                if (a.equals(result[i])) {
+                    result[i] = null;
+                }
+            }
         }
+
+        for (String n : result) {
+            System.out.print(n + "  ");
+        }
+
     }
 }
