@@ -1,0 +1,60 @@
+1. list.add(value); -- boolean - adding item to last place -- add(new String("Privet"));
+   list.add(int index, value) -- adding item to index
+
+1.1 list.addAll(ArrayList); -- boolean - add another list to end - one Datatype
+    list.addAll(int index, ArrayList); -- add another list to index
+
+2. list.get(int index); -- item type - take item from index
+
+3. list.set(int index, value) -- like replace
+
+4. list.size(); -- int - length
+
+5. list.remove(Object); -- boolean - delete from list
+   list.remove(int index); -- Datatype
+
+5.1 list.removeAll(Object); -- boolean - remove all items
+
+6. list.clear(); -- void - clear list
+
+7. list.indexOf(Object); -- int - search element index by name from start
+8. list.lastIndexOf(Object); -- int search element index by name from the end
+
+9. list.isEmpty(); -- boolean - is list empty
+
+10. list.contains(Object); -- boolean (equals) - check list items
+
+11. list.toString(); -- Array - print list items
+
+12. list.clone(); -- Object - copy array - link to one objects
+
+13. list.toArray(Object); -- Array - reform List to Array -- Object[] array = list.toArray();
+    list.toArray(new Datatype); -- Datatype[] -- StringBuilder[] array = list.toArray(new StringBuilder[5]);
+                                                                                                ^
+14. Arrays.asList(Datatype[]); - list <Datatype> -- List <StringBuilder> list = Arrays.asList(array);
+
+15. Collections.sort(ArrayList <Datatype>); -- void - sort list like array
+
+16. list.equals(ArrayList <Datatype>); -- boolean
+
+17. list.get(i).append('something'); -- add to item extra symbols
+
+18. Arrays.compare(Object1, Object2); -- -1 - false - 0 - true - array = null - 1 -- arrays equals
+
+19. Arrays.mismatch(Object1, Object2); -- arrays equal - -1 -- until the first break
+
+20. list.retainAll(); -- boolean - reverse remove - saving items
+
+21. list.containsAll(Object); -- boolean -- is list contains all item in Object
+
+21. list.subList(fromIndex, toIndex); -- List<E> - creating path of list
+
+22. list.toArray(); -- Object - from list to array
+
+23. List.of(E ... elements); -- List <E> constant - create list with items
+
+24. List.copyOf(Collection); -- List <E> constant - copy array items
+
+
+
+
