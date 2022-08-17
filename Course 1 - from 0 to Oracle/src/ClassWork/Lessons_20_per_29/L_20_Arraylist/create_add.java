@@ -1,4 +1,4 @@
-package ClassWork.Lessons_20_per_29.L_20_Arraylist_1;
+package ClassWork.Lessons_20_per_29.L_20_Arraylist;
 
 import java.util.ArrayList;
 import java.util.List;
