@@ -1,0 +1,2 @@
+booleanExpression ? expression1, expression2
+                        true        false
