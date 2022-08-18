@@ -8,21 +8,16 @@ public class ex2 {
         ArrayList <String> list = new ArrayList<>();
         System.out.println("Adding strings to list");
 
-        Collections.addAll(list, strings);
-        System.out.println("Not sorted: " + list);
+        for (String s : strings) {
+            if (!list.contains(s)) {
+                list.add(s);
+            }
+        }
 
         Collections.sort(list);
         System.out.println("Sorted: " + list);
 
 
-        for (int i = 1; i < list.size(); i++) {
-            if (list.get(i).equals(list.get(i - 1))) {
-                list.remove(i);
-            }
-
-        }
-
-        System.out.println("Complete: " + list);
     }
 
     public static void main(String[] args) {
