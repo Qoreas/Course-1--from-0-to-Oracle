@@ -1,0 +1,2 @@
+class Parent {code}
+class Child extends Parent {code}
