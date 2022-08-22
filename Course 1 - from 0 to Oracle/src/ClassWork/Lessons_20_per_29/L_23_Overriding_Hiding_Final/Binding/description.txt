@@ -1,0 +1,2 @@
+1. Compile time binding - static, private, final methods
+2. Runtime binding - all other methods - dynamic 
