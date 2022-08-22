@@ -14,13 +14,13 @@ public class student05 {
     }
 
     public StringBuilder getName() {
-        StringBuilder n = name;
+        StringBuilder n = new StringBuilder(name);
         System.out.println(n);
         return n;
     }
 
     public void setCourse(int course1) {
-        if (course1 > 1 && course1 <= 4) {
+        if (course1 >= 1 && course1 <= 4) {
             course = course1;
         } else {
             System.out.println("Course number is not correct");
@@ -28,9 +28,8 @@ public class student05 {
     }
 
     public int getCourse() {
-        int c = course;
-        System.out.println(c);
-        return c;
+        System.out.println(course);
+        return course;
     }
 
     public void setGrade(double grade1) {
@@ -42,15 +41,14 @@ public class student05 {
     }
 
     public double getGrade() {
-        double d = grade;
-        System.out.println(d);
-        return d;
+        System.out.println(grade);
+        return grade;
     }
 
-    public static void showInfo(student05 st)  {
-        System.out.println("Student name: " + st.name);
-        System.out.println("Student course: " + st.course);
-        System.out.println("Student grade: " + st.grade);
+    public void showInfo()  {
+        getName();
+        getCourse();
+        getGrade();
     }
 }
 
@@ -62,10 +60,6 @@ class testStudent05  {
         st.setCourse(3);
         st.setGrade(6.9);
 
-        st.getName();
-        st.getCourse();
-        st.getGrade();
-
-        student05.showInfo(st);
+        st.showInfo();
     }
 }
