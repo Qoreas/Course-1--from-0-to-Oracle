@@ -1,0 +1,6 @@
+1. can not create interface's object, because he isn't class
+2. interface don't have constructor
+3. access modifier top level interface's or public, or default
+4. if you don't write by yourself, compilator add abstract statement to interface
+5. interface can not be final
+6. interface's methods can not be final

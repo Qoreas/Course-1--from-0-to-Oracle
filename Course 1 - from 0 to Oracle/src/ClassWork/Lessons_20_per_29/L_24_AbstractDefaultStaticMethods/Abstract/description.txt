@@ -1,0 +1,11 @@
+1. abstract methods don't have body
+2. can't create abstract class's object
+3. if class have abstract method, class must be abstract
+4. abstract class can don't have methods
+5. abstract class's subclass must rewrite all abstract methods or be abstract class too
+6. can use reference variable type abstract class's to link on subclass's object, that don't abstract
+7. abstract can not be final
+8. variables can not be abstract
+9. abstract classes has constructor
+10. anyone override method can be abstract and not abstract
+11. methods can not have lines like: final abstract, private abstract, static abstract
