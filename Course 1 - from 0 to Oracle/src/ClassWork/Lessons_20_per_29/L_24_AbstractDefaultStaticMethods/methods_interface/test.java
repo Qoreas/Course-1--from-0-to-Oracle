@@ -5,7 +5,8 @@ public class test {
 
 interface I1 {
     void abc();
-// default has code -- override in target class
+
+    // default has code -- override in target class
     default void def() {
         System.out.println("This is def method ");
     }
@@ -27,19 +28,19 @@ interface I2 extends I1 {
 
 
 class R {
-//    @Override
+    //    @Override
 //    public void def() {
 //        System.out.println("Hi");
 //    }
-    R method () {
+    R method() {
         return new R();
     }
+
     public static void main(String[] args) {
 //        I1.ert();
 //        I2.ert();
     }
 }
-
 
 
 //class D implements I1{
