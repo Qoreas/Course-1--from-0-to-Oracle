@@ -1,0 +1,4 @@
+1. private interface can not be abstract
+2. private interface can be used only in interface
+3. private static method can be used inside static/non-static method's bodies
+4. private non-static method CAN NOT be used inside private static method's bodies
