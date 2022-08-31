@@ -1,0 +1,5 @@
+1. transient -- variables - not can be serialized
+2. native -- methods were not created on java. They don't have bodies and ends like abstract methods
+3. synchronized -- methods - can be used in one time by one flow
+4. volatile -- variables - can be changed by many flows and data will be visible in all flows
+5. strictfp -- methods and classes - limits the accuracy of calculations with float and double according to the IEEE standard
