@@ -1,4 +1,4 @@
-package Fun.OGE;
+package Tests.OGE;
 
 import java.util.Random;
 
