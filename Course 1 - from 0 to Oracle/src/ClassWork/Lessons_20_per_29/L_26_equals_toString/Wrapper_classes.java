@@ -35,8 +35,8 @@ public class Wrapper_classes {
         Double d2 = Double.valueOf(s3);
         System.out.println(d2);
 
-        Byte b10 = new Byte((byte)5);
+        //Byte b10 = new Byte((byte)5);
 
-        Integer i4 = new Integer(6);
+        //Integer i4 = new Integer(6);
     }
 }
