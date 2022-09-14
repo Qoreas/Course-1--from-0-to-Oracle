@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class test_2 {
     public static void main(String[] args) {
         ArrayList<String> all = new ArrayList<>();
-//        all.add(throw_2());
+//        all.add(T2_throw());
         all.add("one");
         all.add("two");
         all.add("three");
