@@ -1,15 +1,15 @@
-package ClassWork.Lessons_20_per_29.L_27_Exceptions_Errors_2;
+package ClassWork.Lessons_20_per_29.L_27_Exceptions_Errors_2.P1_Tests;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 
-public class test_7 {
+public class T7 {
     static FileInputStream fis1, fis2;
 
     public static void main(String[] args) {
         try {
-            fis1 = new FileInputStream("C:\\Users\\Qoreas\\IdeaProjects\\Study\\Course 1 - from 0 to Oracle\\src\\ClassWork\\Lessons_20_per_29\\L_27_Exceptions_Errors_2\\test_3.java");
+            fis1 = new FileInputStream("C:\\Users\\Qoreas\\IdeaProjects\\Study\\Course 1 - from 0 to Oracle\\src\\ClassWork\\Lessons_20_per_29\\L_27_Exceptions_Errors_2\\T3.java");
             System.out.println("File is in the system and founded");
             try {
                 fis2.close();

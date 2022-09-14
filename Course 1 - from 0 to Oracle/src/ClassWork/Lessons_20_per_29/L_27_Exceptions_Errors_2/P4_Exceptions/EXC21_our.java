@@ -1,6 +1,6 @@
-package ClassWork.Lessons_20_per_29.L_27_Exceptions_Errors_2;
+package ClassWork.Lessons_20_per_29.L_27_Exceptions_Errors_2.P4_Exceptions;
 
-public class our_exception_8 {
+public class EXC21_our {
     void marathon(int C, int kmPerHour) throws legDownException {
         if (kmPerHour > 12) {
             throw new legDownException("Temp was too high: " + kmPerHour);
@@ -15,12 +15,12 @@ public class our_exception_8 {
     }
 
     public static void main(String[] args) {
-        our_exception_8 t = new our_exception_8();
+        EXC21_our t = new EXC21_our();
         try {
             t.marathon(20, 13);
         } catch (legDownException e) {
             System.out.println(e.getMessage());
-        }finally {
+        } finally {
             System.out.println("In any case you will get reward");
         }
     }

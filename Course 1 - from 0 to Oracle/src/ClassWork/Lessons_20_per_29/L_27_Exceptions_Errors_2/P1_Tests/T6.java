@@ -1,12 +1,10 @@
-package ClassWork.Lessons_20_per_29.L_27_Exceptions_Errors_2;
+package ClassWork.Lessons_20_per_29.L_27_Exceptions_Errors_2.P1_Tests;
 
-public class test_6 {
+public class T6 {
     static String abc() {
         String s1 = "";
         String s2 = null;
-        OUTER:
         try {
-            INNER:
             try {
                 s1 += "1";
                 s2.charAt(3);

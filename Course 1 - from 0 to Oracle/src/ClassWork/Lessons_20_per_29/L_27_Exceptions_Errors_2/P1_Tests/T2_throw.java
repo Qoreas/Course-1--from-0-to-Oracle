@@ -1,10 +1,10 @@
-package ClassWork.Lessons_20_per_29.L_27_Exceptions_Errors_2;
+package ClassWork.Lessons_20_per_29.L_27_Exceptions_Errors_2.P1_Tests;
 
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 
-public class throw_2 {
+public class T2_throw {
     void abc() throws FileNotFoundException {
         try {
             File f = new File("C:\\Uers\\Qoreas\\IdeaProjects\\Study\\Course 1 - from 0 to Oracle\\src\\ClassWork\\Lessons_20_per_29\\L_27_Exceptions_Errors_1\\class_hierarchy.txt");

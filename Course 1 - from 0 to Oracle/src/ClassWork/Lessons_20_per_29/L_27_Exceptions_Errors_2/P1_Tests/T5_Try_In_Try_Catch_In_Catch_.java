@@ -1,6 +1,6 @@
-package ClassWork.Lessons_20_per_29.L_27_Exceptions_Errors_2;
+package ClassWork.Lessons_20_per_29.L_27_Exceptions_Errors_2.P1_Tests;
 
-public class Try_In_Try_Catch_In_Catch_5 {
+public class T5_Try_In_Try_Catch_In_Catch_ {
     void abc() {
         int[] array = {1, 2, 3};
         try {
@@ -18,7 +18,7 @@ public class Try_In_Try_Catch_In_Catch_5 {
     }
 
     public static void main(String[] args) {
-        Try_In_Try_Catch_In_Catch_5 t = new Try_In_Try_Catch_In_Catch_5();
+        T5_Try_In_Try_Catch_In_Catch_ t = new T5_Try_In_Try_Catch_In_Catch_();
         t.abc();
     }
 }

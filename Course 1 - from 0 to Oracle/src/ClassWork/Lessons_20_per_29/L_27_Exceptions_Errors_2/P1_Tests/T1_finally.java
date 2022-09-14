@@ -1,10 +1,10 @@
-package ClassWork.Lessons_20_per_29.L_27_Exceptions_Errors_2;
+package ClassWork.Lessons_20_per_29.L_27_Exceptions_Errors_2.P1_Tests;
 
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 
-public class finally_1 {
+public class T1_finally {
 
     static StringBuilder abc() {
         StringBuilder a = new StringBuilder("hi");

@@ -1,6 +1,6 @@
-package ClassWork.Lessons_20_per_29.L_27_Exceptions_Errors_2.RunTimeExceptions;
+package ClassWork.Lessons_20_per_29.L_27_Exceptions_Errors_2.P2_RunTimeExceptions;
 
-public class ClassCastException_11 {
+public class EXC11_ClassCastException {
     public static void main(String[] args) {
         doc d = new doc();
         teacher t = new teacher();

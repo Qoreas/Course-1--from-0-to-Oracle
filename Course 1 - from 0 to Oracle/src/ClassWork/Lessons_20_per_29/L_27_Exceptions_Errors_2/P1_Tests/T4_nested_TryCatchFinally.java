@@ -1,10 +1,10 @@
-package ClassWork.Lessons_20_per_29.L_27_Exceptions_Errors_2;
+package ClassWork.Lessons_20_per_29.L_27_Exceptions_Errors_2.P1_Tests;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 
-public class nested_TryCatchFinally_4 {
+public class T4_nested_TryCatchFinally {
     FileInputStream fis1, fis2;
 
     public void abc() {
@@ -30,7 +30,7 @@ public class nested_TryCatchFinally_4 {
     }
 
     public static void main(String[] args) {
-        nested_TryCatchFinally_4 t = new nested_TryCatchFinally_4();
+        T4_nested_TryCatchFinally t = new T4_nested_TryCatchFinally();
         t.abc();
     }
 }

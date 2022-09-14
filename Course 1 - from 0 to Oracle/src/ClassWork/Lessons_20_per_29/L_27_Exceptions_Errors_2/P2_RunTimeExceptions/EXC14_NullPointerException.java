@@ -1,8 +1,8 @@
-package ClassWork.Lessons_20_per_29.L_27_Exceptions_Errors_2.RunTimeExceptions;
+package ClassWork.Lessons_20_per_29.L_27_Exceptions_Errors_2.P2_RunTimeExceptions;
 
 import java.util.ArrayList;
 
-public class NullPointerException_14 {
+public class EXC14_NullPointerException {
     static ArrayList<String> list;
     static doc[] array;
 
