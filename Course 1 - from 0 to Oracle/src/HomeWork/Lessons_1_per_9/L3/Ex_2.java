@@ -1,4 +1,4 @@
-package HomeWork.Lesson_3;
+package HomeWork.Lessons_1_per_9.L3;
 
 public class Ex_2 {
     public static void main(String[] args) {

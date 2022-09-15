@@ -1,4 +1,4 @@
-package HomeWork.Lesson_9.Ex2;
+package HomeWork.Lessons_1_per_9.L9.Ex2;
 
 public class Ex6 {
     int a = 1;
