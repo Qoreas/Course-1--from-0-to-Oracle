@@ -10,6 +10,6 @@ public class ArrayEqual {
         System.out.println(array1.equals(array2));
         array1[1] = 0;
         array2[5 - 3] = 3;
-        array1[array1.length] = 10; // error
+        array1[array1.length] = 10; // Error
     }
 }

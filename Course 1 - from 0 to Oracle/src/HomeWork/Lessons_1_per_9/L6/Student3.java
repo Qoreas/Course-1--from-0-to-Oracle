@@ -40,7 +40,7 @@ public class Student3 {
 
 }
 
-class Student3_test {
+class Student3_Test {
     public static void main(String[] args) {
         Student3 first_st = new Student3(1, "Petya", "Elcin", 2000, 5.4, 7.4, 9.9);
 

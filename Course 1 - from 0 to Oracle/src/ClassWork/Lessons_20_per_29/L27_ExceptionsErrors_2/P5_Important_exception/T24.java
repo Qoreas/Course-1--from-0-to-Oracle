@@ -1,6 +1,6 @@
 package ClassWork.Lessons_20_per_29.L27_ExceptionsErrors_2.P5_Important_exception;
 
-public class T24 { // exception is not error
+public class T24 { // exception is not Error
     static void abc() {
         System.out.println("ok");
     }

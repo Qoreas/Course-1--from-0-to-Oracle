@@ -9,9 +9,9 @@ public class T4_nested_TryCatchFinally {
 
     public void abc() {
         try {
-            fis1 = new FileInputStream("C:\\Users\\Qoreas\\IdeaProjects\\Study\\Course 1 - from 0 to Oracle\\src\\ClassWork\\Lessons_20_per_29\\L_27_Exceptions_Errors_1\\class_hierarchy.txt");
+            fis1 = new FileInputStream("C:\\Users\\Qoreas\\IdeaProjects\\Study\\Course 1 - from 0 to Oracle\\src\\ClassWork\\Lessons_20_per_29\\L_27_Exceptions_Errors_1\\ClassHierarchy.txt");
             try {
-                fis2 = new FileInputStream("C:\\Users\\Qoeas\\IdeaProjects\\Study\\Course 1 - from 0 to Oracle\\src\\ClassWork\\Lessons_20_per_29\\L_27_Exceptions_Errors_1\\class_hierarchy.txt");
+                fis2 = new FileInputStream("C:\\Users\\Qoeas\\IdeaProjects\\Study\\Course 1 - from 0 to Oracle\\src\\ClassWork\\Lessons_20_per_29\\L_27_Exceptions_Errors_1\\ClassHierarchy.txt");
 
             } catch (FileNotFoundException e2) {
                 System.out.println("File not found - fis2");

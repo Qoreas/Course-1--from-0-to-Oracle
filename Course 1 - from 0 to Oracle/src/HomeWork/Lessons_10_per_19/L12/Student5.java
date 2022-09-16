@@ -11,7 +11,7 @@ public class Student5 {
 }
 
 
-class Student6_test {
+class Student6_Test {
     static void compare(Student5 st1, Student5 st2) {
         if (st1.name.equals(st2.name) && st1.age == st2.age) {
             System.out.println("They are equal");
@@ -23,16 +23,16 @@ class Student6_test {
 
     static void compareAttributes(Student5 st1, Student5 st2) {
         if (st1.name.equals(st2.name)) {
-            System.out.println("Names compare");
+            System.out.println("Names Compare");
 
             if (st1.age == st2.age) {
-                System.out.println("Ages compare");
+                System.out.println("Ages Compare");
             } else {
-                System.out.println("Ages don't compare");
+                System.out.println("Ages don't Compare");
             }
 
         } else {
-            System.out.println("Names don't compare");
+            System.out.println("Names don't Compare");
         }
     }
 

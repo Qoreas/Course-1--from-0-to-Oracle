@@ -16,7 +16,7 @@ public class Student {
     // Parameter set
 }
 
-class Student_test {
+class StudentTest {
     public static void main(String[] args) {
         // creating an object and its reference
         Student first_st = new Student();

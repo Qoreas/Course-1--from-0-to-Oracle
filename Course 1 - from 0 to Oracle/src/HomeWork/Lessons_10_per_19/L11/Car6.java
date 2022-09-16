@@ -7,7 +7,7 @@ public class Car6 {
 
 }
 
-class car6_test {
+class Car6_Test {
     public static void doorsChange(Car6 car, int doors) {
         car.doors = doors;
         System.out.println(car.doors);

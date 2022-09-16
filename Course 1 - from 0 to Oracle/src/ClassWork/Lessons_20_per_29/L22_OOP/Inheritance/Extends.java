@@ -36,7 +36,7 @@ class medBrother extends Doc {
     void operation() {}
 }
 
-class dentist extends Doc {
+class Dentist extends Doc {
 
 }
 

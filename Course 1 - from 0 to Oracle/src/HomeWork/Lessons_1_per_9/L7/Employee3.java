@@ -44,7 +44,7 @@ public class Employee3 {
     }
 }
 
-class Employee3_test {
+class Employee3_Test {
     public static void main(String[] args) {
         Employee3 test = new Employee3(1, "Ivanov", 20);
         System.out.println(test.id);
