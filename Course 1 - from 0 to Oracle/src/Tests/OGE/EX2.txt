@@ -1,0 +1,7 @@
+Write a program to solve this problem.
+The surveillance camera automatically registers the speed passing by cars, rounding the speed values to numbers.
+It is necessary to determine the presence of the registered speed of the vehicle.
+If the speed of at least one car was less than 30 km/h, print "YES", otherwise print "N0".
+
+The program takes as input the number of passing cars N (1 < N < 30), then their speed is output.
+The speed value cannot be less than 1 and greater than 300.
