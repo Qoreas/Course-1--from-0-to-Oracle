@@ -1,4 +1,4 @@
-package ClassWork.Lessons_20_per_29.L21_RepeatLesson.int_and_char;
+package ClassWork.Lessons_20_per_29.L21_RepeatLesson.intAndChar;
 
 public class EX1 {
 

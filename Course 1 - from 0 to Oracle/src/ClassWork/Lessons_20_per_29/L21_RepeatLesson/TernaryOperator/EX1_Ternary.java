@@ -1,4 +1,4 @@
-package ClassWork.Lessons_20_per_29.L21_RepeatLesson.Ternary_operator;
+package ClassWork.Lessons_20_per_29.L21_RepeatLesson.TernaryOperator;
 
 public class EX1_Ternary {
     public static void main(String[] args) {

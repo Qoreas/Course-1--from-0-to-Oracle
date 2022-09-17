@@ -1,4 +1,4 @@
-package ClassWork.Lessons_20_per_29.L21_RepeatLesson.Variable_declaration;
+package ClassWork.Lessons_20_per_29.L21_RepeatLesson.VariableDeclaration;
 
 public class EX1 {
     int l = 8;

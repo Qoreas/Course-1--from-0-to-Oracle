@@ -1,4 +1,4 @@
-package ClassWork.Lessons_20_per_29.L22_OOP.test;
+package ClassWork.Lessons_20_per_29.L22_OOP.Test;
 
 public class T1 {
     public static void main(String[] args) {

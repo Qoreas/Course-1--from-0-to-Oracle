@@ -1,4 +1,4 @@
-package ClassWork.Lessons_20_per_29.L22_OOP.Encap_test;
+package ClassWork.Lessons_20_per_29.L22_OOP.EncapsulationTest;
 
 import ClassWork.Lessons_20_per_29.L22_OOP.Encapsulation.Human01;
 

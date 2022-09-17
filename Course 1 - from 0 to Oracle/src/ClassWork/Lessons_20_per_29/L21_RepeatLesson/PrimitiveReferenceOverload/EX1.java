@@ -1,4 +1,4 @@
-package ClassWork.Lessons_20_per_29.L21_RepeatLesson.Primitive_and_reference_Overload;
+package ClassWork.Lessons_20_per_29.L21_RepeatLesson.PrimitiveReferenceOverload;
 
 public class EX1 {
     public void abc(String s) {

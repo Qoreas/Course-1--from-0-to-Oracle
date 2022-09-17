@@ -1,4 +1,4 @@
-package ClassWork.Lessons_20_per_29.L22_OOP.Constructors_extends;
+package ClassWork.Lessons_20_per_29.L22_OOP.ConstructorsExtends;
 
 public class Human04 {
      Human04(String name, String surname) {

@@ -1,4 +1,4 @@
-package ClassWork.Lessons_20_per_29.L21_RepeatLesson.Compile_error_method_overload;
+package ClassWork.Lessons_20_per_29.L21_RepeatLesson.CompileErrorMethodOverload;
 
 public class T1 {
     public void abc(int a, int b) {

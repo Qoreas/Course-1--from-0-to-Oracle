@@ -1,4 +1,4 @@
-package ClassWork.Lessons_20_per_29.L21_RepeatLesson.Constructor_to_method;
+package ClassWork.Lessons_20_per_29.L21_RepeatLesson.ConstructorToMethod;
 
 public class EX1 {
     EX1() {
