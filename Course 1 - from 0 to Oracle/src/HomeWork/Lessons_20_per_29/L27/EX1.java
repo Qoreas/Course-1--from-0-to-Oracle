@@ -8,6 +8,8 @@ public class EX1 {
             t.drink("water");
             try {
                 t.drink("beer");
+            } catch (notWaterException e) {
+                System.out.println(e.getMessage());
             } catch (Exception e) {
                 System.out.println(e.getMessage());
             } finally {
@@ -20,6 +22,7 @@ public class EX1 {
         }
     }
 }
+
 class notMeatException extends RuntimeException {
     notMeatException(String s) {
         super(s);
@@ -39,9 +42,7 @@ class tiger {
             throw new notMeatException("Tiger doesn't eat " + s);
         }
 
-        if (s.equals("meat")) {
-            System.out.println("Tiger eats meat");
-        }
+        System.out.println("Tiger eats meat");
     }
 
     // here you need to write that the drink class can throw such an exception notWaterException
@@ -55,8 +56,6 @@ class tiger {
             throw new notWaterException("Tiger doesn't drink " + s);
         }
 
-        if (s.equals("water")) {
-            System.out.println("Tiger drinks water");
-        }
+        System.out.println("Tiger drinks water");
     }
 }

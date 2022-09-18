@@ -1,0 +1,7 @@
+java.time
+
+1. LocalDate -- year, month, day
+2. LocalTime -- hour, minute, second, nanosecond
+3. LocalDataTime -- year, month, day, hour, minute, second, nanosecond
+
+They have static method now();
