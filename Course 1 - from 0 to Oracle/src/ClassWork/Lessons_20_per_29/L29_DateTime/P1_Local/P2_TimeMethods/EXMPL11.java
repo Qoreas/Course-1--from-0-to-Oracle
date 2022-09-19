@@ -1,4 +1,4 @@
-package ClassWork.Lessons_20_per_29.L29_DateTime.Local_1.TimeMethods_2;
+package ClassWork.Lessons_20_per_29.L29_DateTime.P1_Local.P2_TimeMethods;
 
 import java.time.LocalTime;
 
