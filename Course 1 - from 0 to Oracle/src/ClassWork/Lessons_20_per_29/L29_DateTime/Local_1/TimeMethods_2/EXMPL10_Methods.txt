@@ -1,0 +1,8 @@
+1. plusHours(int num);
+2. minusHours(int num);
+3. plusMinutes(int num);
+4. minusMinutes(int num);
+5. plusSeconds(int num);
+6. minusSeconds(int num);
+7. plusNanos(int num);
+8. minusNanos(int num);

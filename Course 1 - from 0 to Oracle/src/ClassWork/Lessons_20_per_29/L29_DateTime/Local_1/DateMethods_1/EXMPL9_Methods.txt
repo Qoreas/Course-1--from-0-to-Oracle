@@ -1,0 +1,6 @@
+1. plusWeak(int num);
+2. minusWeak(int num);
+3. plusMonth(int num);
+4. minusMonth(int num);
+5. plusYears(int num);
+6. minusYears(int num);
