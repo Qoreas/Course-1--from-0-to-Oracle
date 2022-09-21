@@ -1,0 +1,1 @@
+With that class you can remake output view of date and time

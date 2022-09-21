@@ -1,0 +1,4 @@
+1. getNano(); -- int
+2. getSecond(); -- int
+3. getMinute(); -- int
+4. getHour(); -- int

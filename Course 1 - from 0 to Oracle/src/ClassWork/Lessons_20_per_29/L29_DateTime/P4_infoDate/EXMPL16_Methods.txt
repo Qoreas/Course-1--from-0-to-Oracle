@@ -1,0 +1,10 @@
+Days
+1. getDayOfMonth(); -- int
+2. getDayOfYear(); -- int
+
+Month
+3. getMonth(); -- Month -- name
+4. getMonthValue -- int
+
+Year
+5. getYear(); -- int

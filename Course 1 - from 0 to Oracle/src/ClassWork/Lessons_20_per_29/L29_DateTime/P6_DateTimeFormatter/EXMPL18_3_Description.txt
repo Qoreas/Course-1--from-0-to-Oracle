@@ -1,0 +1,14 @@
+LocalDateTime ldt = LocalDateTime.of(2021, Month.AUGUST, 31, 7, 45, 32, 5555);
+
+"Y" = 2021 | "YY" = 14 | "YYYY" = 2014
+"M" = 8 | "MM" = 08 | "MMM" = map | "MMMM" = august
+(month number in year)
+
+"w" = 11 | "ww" = 11
+(week number)
+
+"d" = 31 | "dd" = 31
+"h" = 7 | "hh" = 07
+"m" = 45 | "mm" = 45
+"s" = 32 | "ss" = 32
+"n" = 5555 | "nnnnn" = 05555

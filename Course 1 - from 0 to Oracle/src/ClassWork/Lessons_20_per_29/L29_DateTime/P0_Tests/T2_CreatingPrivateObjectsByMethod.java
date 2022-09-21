@@ -1,4 +1,4 @@
-package ClassWork.Lessons_20_per_29.L29_DateTime.P1_Local;
+package ClassWork.Lessons_20_per_29.L29_DateTime.P0_Tests;
 
 public class T2_CreatingPrivateObjectsByMethod {
     public static void main(String[] args) {
