@@ -1,5 +1,0 @@
-Write a program that uses sequences to determine the number of numbers that are multiples of 3 and end in 2.
-The program receives as input the number of numbers in turn, and then the numbers themselves.
-The number of numbers does not exceed 1000.
-The modulo numbers entered do not exceed 30,000.
-The program must return one number: the number of numbers that are multiples of 3 and end with 2.
