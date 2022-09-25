@@ -8,19 +8,19 @@ import java.time.format.DateTimeFormatter;
 
 public class T1 {
     static DateTimeFormatter format1 = DateTimeFormatter.ofPattern("yyyy, MMMM-dd !! hh:mm");
-    static DateTimeFormatter format2 = DateTimeFormatter.ofPattern("hh:mm, MM/MMMM/yy");
+    static DateTimeFormatter format2 = DateTimeFormatter.ofPattern("hh:mm, dd/MMM/yy");
 
-    static void change(LocalDateTime ldt1, LocalDateTime ldt2, Period period, Duration duration) {
-        while (ldt1.isBefore(ldt2)) {
-            System.out.println("Working with " + ldt1.format(format1));
+    static void change(LocalDateTime start, LocalDateTime end, Period period, Duration duration) {
+        while (start.isBefore(end)) {
+            System.out.println("Working with " + start.format(format1));
 
-            ldt1 = ldt1.plus(period);
-            System.out.println("Until: " + ldt1.format(format1));
+            start = start.plus(period);
+            System.out.println("Until: " + start.format(format1));
 
-            System.out.println("Rest from: " + ldt1.format(format2));
+            System.out.println("Rest from: " + start.format(format2));
 
-            ldt1 = ldt1.plus(duration);
-            System.out.println("Until: " + ldt1.format(format2));
+            start = start.plus(duration);
+            System.out.println("Until: " + start.format(format2));
             System.out.println();
 
         }
