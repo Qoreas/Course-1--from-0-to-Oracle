@@ -27,8 +27,8 @@ public class T1 {
     }
 
     public static void main(String[] args) {
-        LocalDateTime t2 = LocalDateTime.of(2030, Month.SEPTEMBER, 1, 14, 32);
         LocalDateTime t1 = LocalDateTime.of(2030, Month.JULY, 12, 6, 0);
+        LocalDateTime t2 = LocalDateTime.of(2030, Month.SEPTEMBER, 1, 14, 32);
         Period p = Period.ofDays(2);
         Duration d = Duration.ofHours(4);
 
